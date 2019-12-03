@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#increase size of data that can be uploaded through tornado
+cp jupyter_notebook_config.py ~/.jupyter/
+
 set -eux
 
 env
